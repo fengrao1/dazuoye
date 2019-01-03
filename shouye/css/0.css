@@ -193,6 +193,10 @@ a{
     height: 0;
     clear: both;
 }
+.li1{
+	width:186px;
+    height:25px;
+}
 #li {
     width:186px;
     height:25px;

@@ -142,11 +142,6 @@
 /*右侧动态效果结开始*/
      //ul动起来
         var ul = document.getElementById("ul");
-        // console.log(ul.getBoundingClientRect())
-        // console.log(ul.offsetHeight)
-        // console.log(ul.offsetWidth)
-        // console.log(ul.offsetLeft)
-        // console.log(ul.offsetTop)
 
         function show() {
             var top = ul.offsetTop - 1; 
@@ -156,7 +151,7 @@
             }
         }
         var t = setInterval(show, 10);
-        var li = document.getElementsByTagName("li");
+        var li = document.getElementsByClassName("li1");
         for (var i = 0; i < li.length; i++) {
             li[i].onmouseout = function () {           
                 t = setInterval(show, 10);
